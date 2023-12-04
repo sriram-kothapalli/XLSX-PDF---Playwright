@@ -22,14 +22,19 @@ Certainly, here are two potential limitations when validating XLSX (Excel) and P
 
 
 ## Playwright Project Folder Structure
+
 |-- Database
-  |-- database-setup.js
-|-- downloads **In this, XLSX and PDF files are downloaded**
+  |-- database-setup.js      **Configuration for PostgreSQL connection setup**
+|-- downloads
+  |-- file.xlsx              **Downloaded XLSX file**
+  |-- file.pdf               **Downloaded PDF file**
 |-- POM
-  |--File.js **In this, **XLSX and PDF will be validated and data taken from the DB then asserting them to validate on downloaded files**
+  |-- File.js                **Page Object Model for handling XLSX and PDF validation**
 |-- tests
-  |-- test.spec.js **XLSX & PDF test cases**
-|-- playwright.config.js **Environment Configurations are updated**
+  |-- test.spec.js           **Test cases for XLSX and PDF files**
+|-- playwright.config.js     **Environment configurations for Playwright**
+
+
 
 
 ## Prerequisites
