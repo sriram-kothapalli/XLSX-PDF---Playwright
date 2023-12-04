@@ -43,7 +43,7 @@ Before initiating the tests, ensure the following dependencies are installed:
 
 1. Clone the repository:
 
-    `git clone https://github.com/sriram-kothapalli/PlayWright.git`
+    `git clone https://github.com/sriram-kothapalli/XLSX-PDF---Playwright.git`
 
 2. Navigate to the project directory:
 
