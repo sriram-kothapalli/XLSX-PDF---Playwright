@@ -1,0 +1,22 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:con": "playwright test test.spec.js"
+  },
+  "keywords": [],
+  "author": "SriramKothapalli",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.3"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.11.3",
+    "playwright": "^1.40.1",
+    "xlsx": "^0.18.5"
+  }
+}
